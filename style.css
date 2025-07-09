@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.dark-1 {
+    color: #181818;
+}
+.dark-2 {
+    color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
+}
+
+.text-primary {
+    background-color: #FD6E0A;
+    color: #FFF;
+}
+
+header {
+    background-color: #FFF8F3;
+    background-image: url(./images/Developer.png),url(./images/rounded.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.header-container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.nav-title span {
+    color: #FD6E0A;
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.hire-me {
+    padding: 18px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-content h4 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-content h1 {
+    font-size: 84px;
+    margin-top: 8px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    margin: 20px;
+}
+.banner img {  
+    margin-right: -250px;
+}
+
+.download-btn {
+    padding: 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 30px;
+}
+
+.contact-btn {
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 18px;
+    color: #FD6E0A;
+    font-size: 20px;
+    text-transform: capitalize;
+}
