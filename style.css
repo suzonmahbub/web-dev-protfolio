@@ -249,3 +249,10 @@ nav ul li a {
 .border-bottom-none {
     border-bottom: none;
 }
+
+.resume-download-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
